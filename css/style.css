@@ -62,5 +62,26 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+h1 {
+	margin: 0;
+	padding: 0;
+	color: greenyellow;
+}
 
+header {
+	background-color: dimgrey;
+}
 
+#header {
+}
+
+.welcomeToMyPage {
+	margin: 25px;
+	padding: 25px;
+	position: relative;
+	left: 20%;
+}
+
+#imgcaptain {
+	float: right;
+}
