@@ -6,6 +6,9 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
+	font-family: ocr-a-std, monospace;
+	font-style: normal;
+	font-weight: 400;
 	margin: 0;
 	box-sizing: border-box;
 }
@@ -65,7 +68,7 @@ body { width: 100%;}
 h1 {
 	margin: 0;
 	padding: 0;
-	color: greenyellow;
+	color: lime;
 }
 
 header {
@@ -84,4 +87,33 @@ header {
 
 #imgcaptain {
 	float: right;
+	width: 200px;
+	height: 150px;
+	margin: 10px;
+}
+
+.instructions-content {
+	display: block;
+	border-style: solid;
+	border-color: black;
+	padding: 20px;
+}
+
+#aDayFontcolor {
+	color: white;
+	background-color: blue;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+#imgStunning {
+	Float: left;;
+	width: 200px;
+	height: 150px;
+	margin: 10px
+}
+
+#em {
+	color: lime;
 }
