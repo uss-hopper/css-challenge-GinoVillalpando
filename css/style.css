@@ -6,6 +6,7 @@
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
 html, body {
+	background-color: black;
 	font-family: ocr-a-std, monospace;
 	font-style: normal;
 	font-weight: 400;
@@ -14,7 +15,7 @@ html, body {
 }
 
 .container {
-	margin: 0 auto;
+	margin:  0 auto;
 	padding: 0 2rem;
 }
 
@@ -65,24 +66,29 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+
 h1 {
-	margin: 0;
+	margin-top: 0;
 	padding: 0;
 	color: lime;
 }
 
+#tableH2 {
+	text-align: right;
+}
+
 header {
-	background-color: dimgrey;
+	background-color: #333333;
 }
 
 #header {
+	position: relative;
+	top: 25px;
 }
 
-.welcomeToMyPage {
-	margin: 25px;
-	padding: 25px;
+#centerAndPadding {
+	padding: 40px;
 	position: relative;
-	left: 20%;
 }
 
 #imgcaptain {
@@ -93,27 +99,109 @@ header {
 }
 
 .instructions-content {
-	display: block;
 	border-style: solid;
 	border-color: black;
+	position: relative;
+	right: 15%;
 	padding: 20px;
 }
 
 #aDayFontcolor {
 	color: white;
 	background-color: blue;
-	margin: 0;
-	padding: 0;
+	padding: 2%;
 	border: 0;
 }
 
 #imgStunning {
 	Float: left;;
-	width: 200px;
-	height: 150px;
+	width: 300px;
+	height: 200px;
 	margin: 10px
 }
 
 #em {
 	color: lime;
+	position: relative;
+	bottom: 25px;
+	left: 30%;
+}
+
+table {
+	position: relative;
+	right: 20%;
+	border-collapse: collapse;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+td {
+	margin: 5px;
+	padding: 5px;
+}
+
+ td, th, tr {
+	position: relative;
+	left: 25px;
+	font-size: 12px;
+	color: lime;
+	border: 1px solid white;
+	background-color: #333333;
+	width: 800px;
+	height: 25px;
+}
+
+ #contactFormBackground{
+	 padding: 50px;
+	 background-color: #333333;
+ }
+
+.form-wrapper {
+	color: lime;
+	width: 50%;
+	border: 0 solid #ccc;
+	background: green;
+	margin: 8px 0;
+	padding: 12px 12px;
+}
+
+#divMargin {
+	position: relative;
+	left: 25%;
+	margin: 40px;
+}
+
+#footerFontColor {
+	color: white;
+}
+
+#divBackgroundColor {
+	padding: 30px;
+	background-color: white;
+}
+
+#aboutMeBackgroundColor {
+	background-color: blue;
+}
+
+button {
+	border: 0;
+	background-color: lime;
+	font-weight: bold;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#centerForm {
+	position: relative;
+	left: 15%;
+}
+
+#centerFooter {
+	position: relative;
+	left: 25%;
 }

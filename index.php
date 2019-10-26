@@ -7,22 +7,23 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<title>CSS Mockup Activity</title>
 </head>
-<body class="sfooter">
+<section class="sfooter">
 <div class="sfooter-content">
 	<!-- HEADER -->
 	<header>
 		<div class="container">
-			<h1>Dylan McDonald:~$</h1>
+			<h1 id="header">Dylan McDonald:~$</h1>
 			<em id="em">Computer Scientist. Cat Lover. Picard Fan.</em>
 		</div>
 	</header>
 	<!-- INSTRUCTIONS PANEL -->
 	<section>
-		<div class="container">
+		<div id="divBackgroundColor">
+		<div id="divMargin" class="container">
 			<!-- WELCOME IMAGE -->
-			<img class="welcomeToMyPage" src="images/welcome.gif" alt="welcome to my homepage">
+			<img id="centerAndPadding" src="images/welcome.gif" alt="welcome to my homepage">
 			<div class="instructions-wrapper">
-				<div class="instructions-content">
+				<div id="centerAndPadding" class="instructions-content">
 					<img id="imgcaptain" src="images/captain-janeway.png" alt="captain janeway" />
 					<h2>Instructions</h2>
 					<ol>
@@ -34,11 +35,13 @@
 				</div>
 				<div class="clearfix"></div>
 			</div><!--/.instructions-->
+		</div>
 		</div><!--/.container-->
 	</section>
 	<!-- ABOUT ME -->
+	<div id="aboutMeBackgroundColor">
 	<section class="about-me">
-		<div id="aDayFontcolor" class="container">
+		<div id="aDayFontcolor"  class="container">
 			<img id="imgStunning" src="images/stunning.jpg" alt="captain picard" />
 			<h2>A Day in the Life...</h2>
 			<p>Engage! Some days you get the bear, and some days the bear gets you. I'd like to think that I haven't changed those things, sir. Did you come here for something in particular or just general Riker-bashing? That might've been one of the shortest assignments in the history of Starfleet.</p>
@@ -48,8 +51,9 @@
 	</section>
 	<!-- PROFESSIONAL SKILLZ -->
 	<section>
-		<div class="container">
-			<h2>Summary of Profe$$ional Skillz</h2>
+		<div id="divBackgroundColor">
+		<div id="divMargin" class="container">
+			<h2 id="tableH2">Summary of Profe$$ional Skillz</h2>
 			<table>
 				<tr>
 					<th>Languages</th>
@@ -75,25 +79,25 @@
 		</div><!--/.container-->
 	</section>
 	<!-- CONTACT FORM -->
-	<section>
-		<div class="container">
+	<section id="contactFormBackground">
+		<div id="centerForm" class="container">
 			<div class="form-wrapper">
 				<h2>Contact Me! I <3 to fix printers!</h2>
 				<form>
 					<div>
-						<label for="name">Name</label>
+						<label for="name">Name</label><br />
 						<input type="text" name="name" id="name" />
 					</div>
 					<div>
-						<label for="emailEmail">Email</label>
-						<input type="email" name="email" id="email" />
+						<label for="emailEmail">Email</label> <br />
+						<input type="email" name="email" id="email"/>
 					</div>
 					<div>
-						<label for="subject">Subject</label>
+						<label for="subject">Subject</label><br />
 						<input type="text" name="subject" id="subject" />
 					</div>
 					<div>
-						<label for="message">Message</label>
+						<label for="message">Message</label><br />
 						<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
 					</div>
 					<button type="reset">Reset</button>
@@ -101,12 +105,13 @@
 				</form>
 			</div>
 		</div>
-	</section>
-</div><!--/.sfooter-content-->
+</div>
+</div>
+</section>
+<!--/.sfooter-content-->
 <footer>
-	<div class="container">
-		<h4>Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
+	<div id="footerFontColor" class="container">
+		<h4 id="centerFooter">Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
 	</div>
 </footer>
-</body>
 </html>
