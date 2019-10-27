@@ -21,7 +21,7 @@
 		<div id="divBackgroundColor">
 		<div id="divMargin" class="container">
 			<!-- WELCOME IMAGE -->
-			<img id="centerAndPadding" src="images/welcome.gif" alt="welcome to my homepage">
+			<img id="welcomeToMyPageImg" src="images/welcome.gif" alt="welcome to my homepage">
 			<div class="instructions-wrapper">
 				<div id="centerAndPadding" class="instructions-content">
 					<img id="imgcaptain" src="images/captain-janeway.png" alt="captain janeway" />
@@ -33,14 +33,13 @@
 						<li>Have fun! The solution will be demonstrated in class. <small>(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</small></li>
 					</ol>
 				</div>
-				<div class="clearfix"></div>
 			</div><!--/.instructions-->
 		</div>
 		</div><!--/.container-->
 	</section>
 	<!-- ABOUT ME -->
-	<div id="aboutMeBackgroundColor">
-	<section class="about-me">
+	<section>
+	<div class="about-me">
 		<div id="aDayFontcolor"  class="container">
 			<img id="imgStunning" src="images/stunning.jpg" alt="captain picard" />
 			<h2>A Day in the Life...</h2>
@@ -48,11 +47,11 @@
 			<p>Hiss and stare at nothing then run suddenly away. Bare fangs at toy run hide in litter box until treats are fed toy mouse squeak roll over yet stare at the wall, play with food and get confused by dust. Chase dog then run away drink water out of the faucet for find a way to fit in tiny box. <span>Groom yourself 4 hours - checked, have your beauty sleep 18 hours - checked, be fabulous for the rest of the day - checked!</span></p>
 			<div class="clearfix"></div>
 		</div>
+	</div>
 	</section>
 	<!-- PROFESSIONAL SKILLZ -->
 	<section>
-		<div id="divBackgroundColor">
-		<div id="divMargin" class="container">
+		<div id="divMargin2" class="container">
 			<h2 id="tableH2">Summary of Profe$$ional Skillz</h2>
 			<table>
 				<tr>
@@ -76,21 +75,22 @@
 					<td>Meme Master</td>
 				</tr>
 			</table>
-		</div><!--/.container-->
+		</div>
+<!--/.container-->
 	</section>
 	<!-- CONTACT FORM -->
 	<section id="contactFormBackground">
 		<div id="centerForm" class="container">
 			<div class="form-wrapper">
-				<h2>Contact Me! I <3 to fix printers!</h2>
+				<h2>Contact Me! I &lt;3 to fix printers!</h2>
 				<form>
 					<div>
 						<label for="name">Name</label><br />
 						<input type="text" name="name" id="name" />
 					</div>
 					<div>
-						<label for="emailEmail">Email</label> <br />
-						<input type="email" name="email" id="email"/>
+						<label for="email">Email</label> <br />
+						<input type="email" name="email" id="email" />
 					</div>
 					<div>
 						<label for="subject">Subject</label><br />
@@ -105,13 +105,15 @@
 				</form>
 			</div>
 		</div>
-</div>
-</div>
 </section>
 <!--/.sfooter-content-->
-<footer>
-	<div id="footerFontColor" class="container">
-		<h4 id="centerFooter">Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
-	</div>
-</footer>
+		<section id="backgroundColor">
+			<footer class="footer">
+				<div id="footerFontColor" class="container">
+					<h4 id="centerFooter">Best viewed with Netscape Navigator. Proudly hosted by GeoCities.</h4>
+				</div>
+			</footer>
+		</section>
+		</div>
+	</section>
 </html>
